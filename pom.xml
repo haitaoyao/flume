@@ -539,13 +539,13 @@ limitations under the License.
             </execution>
           </executions>
         </plugin>
-
+	<!--
         <plugin>
           <groupId>org.tomdz.maven</groupId>
           <artifactId>sphinx-maven-plugin</artifactId>
           <version>1.0.2</version>
         </plugin>
-
+-->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-assembly-plugin</artifactId>
@@ -1037,7 +1037,7 @@ limitations under the License.
           </reportSet>
         </reportSets>
       </plugin>
-
+      <!--
       <plugin>
         <groupId>org.tomdz.maven</groupId>
         <artifactId>sphinx-maven-plugin</artifactId>
@@ -1047,7 +1047,7 @@ limitations under the License.
           <sourceDirectory>${project.basedir}/flume-ng-doc/sphinx</sourceDirectory>
         </configuration>
       </plugin>
-
+-->
     </plugins>
   </reporting>
 
